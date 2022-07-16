@@ -1,0 +1,31 @@
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.flexWrap {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.flexBox > span {
+    margin: 2%;
+}
+
+.paginatorWrap {
+    background-color: #1769aa99;
+    position: fixed;
+    display: flex;
+    bottom: 0%;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+}
+
+.paginator  {
+    width: 60%;
+}
