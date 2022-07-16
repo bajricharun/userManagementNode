@@ -26,6 +26,7 @@ const AddUser = () => {
             });
             let json = await response;
 
+            window.location.reload();
             return { success: true, data: json.data };
         } catch (err) {
             return { success: false, data: err };

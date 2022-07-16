@@ -39,6 +39,7 @@ const AssignPermissions = () => {
         try {
             let response = await axios.post(addPermissions(id), {permissionsId: selected});
             let json = await response;
+            window.location.reload();
 
             return { success: true, data: json.data };
         } catch (err) {

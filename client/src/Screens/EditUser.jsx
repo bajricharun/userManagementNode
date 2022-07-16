@@ -22,6 +22,7 @@ const EditUser = () => {
                 status: status
             });
             let json = await response;
+            window.location.reload();
 
             return { success: true, data: json.data };
         } catch (err) {
